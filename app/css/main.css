@@ -184,3 +184,83 @@ menu .container {
               border-radius: 6px;
       background-color: #f8cd53;
       border-color: #f8cd53; }
+
+.line {
+  width: 45px;
+  height: 5px;
+  background-color: black;
+  margin-top: 15px; }
+
+.about .container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .about .container .aboutHead {
+    margin-top: 80px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: Roboto; }
+    .about .container .aboutHead h2 {
+      font-size: 36px;
+      font-weight: 400;
+      margin-bottom: 5px; }
+    .about .container .aboutHead span {
+      font-size: 20px; }
+  .about .container .aboutcontent {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    margin-bottom: 80px;
+    margin-top: 50px; }
+    .about .container .aboutcontent .aboutItem {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      margin-left: 45px;
+      margin-right: 45px; }
+      .about .container .aboutcontent .aboutItem h3 {
+        font-size: 22px;
+        font-family: Roboto;
+        margin-top: 20px;
+        margin-bottom: -5px; }
+      .about .container .aboutcontent .aboutItem p {
+        text-align: center; }
