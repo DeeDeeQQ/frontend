@@ -143,12 +143,13 @@ menu
 		flex-direction: column
 		align-items: center
 		justify-content: center
+		font-family: Roboto
 		.aboutHead
 			margin-top: 80px
 			display: flex
 			flex-direction: column
 			align-items: center
-			font-family: Roboto
+
 			h2
 				font-size: 36px
 				font-weight: 400
@@ -169,8 +170,68 @@ menu
 
 				h3
 					font-size: 22px
-					font-family: Roboto
 					margin-top: 20px
 					margin-bottom: -5px
 				p
 					text-align: center
+					font-size: 13.5px
+					line-height: 1.63
+.approch
+	background-color: #f3f3f3
+	padding-bottom: 130px
+	.container
+		display: flex
+		flex-direction: column
+		align-items: center
+		justify-content: center
+		font-family: Roboto
+		.headApproch
+			display: flex
+			flex-direction: column
+			align-items: center
+			justify-content: center
+			margin-bottom: 20px
+			h2
+				margin-top: 90px
+				font-weight: bold
+				font-size: 36px
+				margin-bottom: 5px
+			span
+				font-size: 20px
+
+		.approchItem
+			display: flex
+			align-items: center
+			background-color: #fff
+			margin: 20px 0
+
+			.rectangle
+				display: flex
+				flex-direction: column
+				align-items: center
+				justify-content: center
+				color: white
+				font-size: 20px
+				font-family: Georgia
+				line-height: 0.35
+				width: 300px //Не понимаю почему так? но если поставить 100 то блок получается очень узким (около 42px). С чем связано?
+				height: 100px
+				background-color: #de2b24
+				border: white solid 2px
+				border-radius: 3px
+				z-index: 222
+				margin-left: -54px
+
+				.num
+					font-size: 60px
+					font-weight: bold
+					margin-bottom: 28px
+
+
+			.approchText
+				margin: 45px
+		.reverse
+			flex-direction: row-reverse
+			.rectangle
+				margin-left: 0
+				margin-right: -54px

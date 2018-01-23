@@ -208,7 +208,8 @@ menu .container {
   -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
-          justify-content: center; }
+          justify-content: center;
+  font-family: Roboto; }
   .about .container .aboutHead {
     margin-top: 80px;
     display: -webkit-box;
@@ -223,8 +224,7 @@ menu .container {
     -webkit-box-align: center;
     -webkit-align-items: center;
         -ms-flex-align: center;
-            align-items: center;
-    font-family: Roboto; }
+            align-items: center; }
     .about .container .aboutHead h2 {
       font-size: 36px;
       font-weight: 400;
@@ -259,8 +259,114 @@ menu .container {
       margin-right: 45px; }
       .about .container .aboutcontent .aboutItem h3 {
         font-size: 22px;
-        font-family: Roboto;
         margin-top: 20px;
         margin-bottom: -5px; }
       .about .container .aboutcontent .aboutItem p {
-        text-align: center; }
+        text-align: center;
+        font-size: 13.5px;
+        line-height: 1.63; }
+
+.approch {
+  background-color: #f3f3f3;
+  padding-bottom: 130px; }
+  .approch .container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-family: Roboto; }
+    .approch .container .headApproch {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      margin-bottom: 20px; }
+      .approch .container .headApproch h2 {
+        margin-top: 90px;
+        font-weight: bold;
+        font-size: 36px;
+        margin-bottom: 5px; }
+      .approch .container .headApproch span {
+        font-size: 20px; }
+    .approch .container .approchItem {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      background-color: #fff;
+      margin: 20px 0; }
+      .approch .container .approchItem .rectangle {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        color: white;
+        font-size: 20px;
+        font-family: Georgia;
+        line-height: 0.35;
+        width: 300px;
+        height: 100px;
+        background-color: #de2b24;
+        border: white solid 2px;
+        -webkit-border-radius: 3px;
+                border-radius: 3px;
+        z-index: 222;
+        margin-left: -54px; }
+        .approch .container .approchItem .rectangle .num {
+          font-size: 60px;
+          font-weight: bold;
+          margin-bottom: 28px; }
+      .approch .container .approchItem .approchText {
+        margin: 45px; }
+    .approch .container .reverse {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: reverse;
+      -webkit-flex-direction: row-reverse;
+          -ms-flex-direction: row-reverse;
+              flex-direction: row-reverse; }
+      .approch .container .reverse .rectangle {
+        margin-left: 0;
+        margin-right: -54px; }
