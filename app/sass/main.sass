@@ -46,7 +46,7 @@ header
 			color: dodgerblue
 			font-size: 24px
 
-menu
+nav
 	.container
 		height: 130px
 		display: flex
@@ -204,37 +204,46 @@ menu
 			align-items: center
 			background-color: #fff
 			margin: 20px 0
-
-			.rectangle
+			.img
 				display: flex
-				flex-direction: column
-				align-items: center
-				justify-content: center
-				color: white
-				font-size: 20px
-				font-family: Georgia
-				line-height: 0.35
-				width: 300px //Не понимаю почему так? но если поставить 100 то блок получается очень узким (около 42px). С чем связано?
-				height: 100px
-				background-color: #de2b24
-				border: white solid 2px
-				border-radius: 3px
-				z-index: 222
-				margin-left: -54px
+				position: relative
+				.rectangle
+					position: absolute
+					right: -50px
+					top: 29%
+					display: flex
+					flex-direction: column
+					align-items: center
+					justify-content: center
+					color: white
+					font-size: 20px
+					font-family: Georgia
+					line-height: 0.35
+					width: 100px //Не понимаю почему так? но если поставить 100 то блок получается очень узким (около 42px). С чем связано?
+					height: 100px
+					background-color: #de2b24
+					border: white solid 2px
+					border-radius: 3px
+					z-index: 222
 
-				.num
-					font-size: 60px
-					font-weight: bold
-					margin-bottom: 28px
-
+			.num
+				font-size: 60px
+				font-weight: bold
+				margin-bottom: 28px
 
 			.approchText
 				margin: 45px
+				margin-left: 80px
+
 		.reverse
 			flex-direction: row-reverse
 			.rectangle
-				margin-left: 0
-				margin-right: -54px
+				right: 0
+				left: -50px
+			.approchText
+				margin-left: 45px
+				margin-right: 80px
+
 .work
 	background-color: #de2b24
 	color: white
