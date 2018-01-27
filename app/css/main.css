@@ -506,6 +506,7 @@ nav .container {
           justify-content: center;
   background-color: #2a2a2a;
   padding-top: 80px;
+  padding-bottom: 80px;
   color: white;
   font-family: Roboto; }
   .getintouch .getintouchImg {
@@ -536,3 +537,77 @@ nav .container {
       text-decoration: none; }
       .getintouch .getintouchImg a:hover {
         border-color: #de2b24; }
+  .getintouch form {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
+    .getintouch form input {
+      height: 54px;
+      width: 683px;
+      border-color: #4F4F4F;
+      -webkit-border-radius: 1px;
+              border-radius: 1px;
+      background-color: #4F4F4F;
+      margin-top: 20px;
+      padding-left: 25px;
+      color: white;
+      border-style: solid; }
+      .getintouch form input::-webkit-input-placeholder {
+        color: #CECECE; }
+      .getintouch form input::-moz-placeholder {
+        color: #CECECE; }
+      .getintouch form input:-ms-input-placeholder {
+        color: #CECECE; }
+      .getintouch form input::-ms-input-placeholder {
+        color: #CECECE; }
+      .getintouch form input::placeholder {
+        color: #CECECE; }
+      .getintouch form input:hover, .getintouch form input:active, .getintouch form input:focus {
+        border-color: #de2b24;
+        outline-color: #de2b24; }
+    .getintouch form button {
+      margin-top: 35px;
+      width: 153px;
+      height: 53px;
+      border: solid 2px #515151;
+      -webkit-border-radius: 3px;
+              border-radius: 3px;
+      background-color: rgba(243, 243, 243, 0);
+      color: white; }
+      .getintouch form button:hover, .getintouch form button:active, .getintouch form button:focus {
+        border-color: #de2b24;
+        outline-color: #de2b24; }
+
+footer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #515151;
+  color: #CECECE;
+  height: 68px; }
