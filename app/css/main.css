@@ -135,7 +135,8 @@ nav .container {
       font-family: Roboto;
       font-size: 15px;
       font-weight: bold;
-      line-height: 1.2; }
+      line-height: 1.2;
+      border-style: solid; }
 
 .banner {
   background-image: url(../img/bg.png);
@@ -165,19 +166,26 @@ nav .container {
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
         -ms-flex-direction: column;
-            flex-direction: column; }
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: Roboto; }
     .banner .greeting h1 {
       font-size: 48px;
-      font-family: Roboto;
       font-weight: normal;
       line-height: 1.2;
       margin: auto;
       margin-bottom: 5px; }
     .banner .greeting span {
-      font-size: 30px;
-      font-family: Roboto; }
+      font-size: 30px; }
     .banner .greeting button {
-      margin: auto;
+      margin-top: 25px;
+      border-style: solid;
+      text-transform: uppercase;
+      color: white;
+      font-weight: 600;
       width: 330px;
       height: 69px;
       -webkit-border-radius: 6px;
@@ -427,6 +435,9 @@ nav .container {
       margin-top: 80px; }
       .work .container .workHeader .line {
         background-color: white; }
+      .work .container .workHeader span {
+        margin-top: -15px;
+        font-weight: 300; }
     .work .container .workContent {
       display: -webkit-box;
       display: -webkit-flex;
@@ -481,7 +492,8 @@ nav .container {
         -webkit-box-flex: 1;
         -webkit-flex-grow: 1;
             -ms-flex-positive: 1;
-                flex-grow: 1; }
+                flex-grow: 1;
+        width: 250px; }
         .work .container .workContent .workContentImg img {
           width: 100%;
           height: 100%; }
@@ -611,3 +623,158 @@ footer {
   background-color: #515151;
   color: #CECECE;
   height: 68px; }
+
+.contact {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 115px 0;
+  background-color: #1287BF;
+  color: white;
+  font-family: Roboto; }
+  .contact h2 {
+    font-size: 36px;
+    margin-bottom: -20px; }
+  .contact p {
+    font-size: 20px;
+    font-weight: 400; }
+  .contact .open {
+    width: 62px;
+    height: 62px;
+    border: solid 3px white;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 45px; }
+  .contact .hidden {
+    display: none; }
+  .contact .view {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+  .contact .hidden {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #fff;
+    color: #828282;
+    width: 683px;
+    padding: 50px 0;
+    margin-top: 55px; }
+    .contact .hidden:before {
+      content: '';
+      position: absolute;
+      top: -30px;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 0 32px 30px 32px;
+      border-color: transparent transparent white transparent; }
+    .contact .hidden p {
+      font-size: 15px;
+      line-height: 1.467;
+      text-align: center; }
+    .contact .hidden form {
+      margin-top: 15px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .contact .hidden form input {
+        width: 447px;
+        height: 54px;
+        border: solid 1px #D8D8D8;
+        -webkit-border-radius: 4px;
+                border-radius: 4px;
+        margin-top: 10px;
+        padding-left: 25px; }
+        .contact .hidden form input::-webkit-input-placeholder {
+          color: #d0d0d0; }
+        .contact .hidden form input::-moz-placeholder {
+          color: #d0d0d0; }
+        .contact .hidden form input:-ms-input-placeholder {
+          color: #d0d0d0; }
+        .contact .hidden form input::-ms-input-placeholder {
+          color: #d0d0d0; }
+        .contact .hidden form input::placeholder {
+          color: #d0d0d0; }
+        .contact .hidden form input:hover, .contact .hidden form input:active, .contact .hidden form input:focus {
+          border-color: #1287BF; }
+      .contact .hidden form button {
+        background-color: #DE2B24;
+        color: white;
+        -webkit-border-radius: 3px;
+                border-radius: 3px;
+        width: 161px;
+        height: 46px;
+        margin: 40px 0;
+        font-weight: bold;
+        line-height: 1.2;
+        font-size: 15px;
+        border: none; }
+  .contact .exit {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: absolute;
+    top: -25px;
+    right: -25px;
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    border: white solid 2px;
+    background-color: #DE2B24; }
+    .contact .exit i {
+      color: white;
+      font-size: 20px; }
